@@ -5,9 +5,9 @@
 class DevTools < Formula
   desc ""
   homepage ""
-  url "https://github.com/jmlagace/dev-tools/archive/1.0.0.tar.gz"
-  version "1.0.0"
-  sha256 "ad085c5ca288f7d1e3df2f7f470ed548e1383f026505ec4f13677c71362f2bd9"
+  url "https://github.com/jmlagace/dev-tools/archive/1.0.1.tar.gz"
+  version "1.0.1"
+  sha256 "ebb4a23d561d6b950333c6c7476b58f74e798036d5379e8a3f3c9e6dd444f668"
 
   # depends_on "cmake" => :build
   # depends_on :x11 # if your formula requires any X11/XQuartz components
@@ -16,6 +16,7 @@ class DevTools < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
 
     bin.install "php-check"
+    bin.install "ruby-check"
   end
 
   test do
