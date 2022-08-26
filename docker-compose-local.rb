@@ -4,7 +4,7 @@
 class DockerComposeLocal < Formula
   desc ""
   homepage ""
-  url "https://github.com/jmlagace/docker-compose-local/archive/refs/tags/0.0.1.tar.gz"
+  url "https://github.com/jmlagace/docker-compose-local/archive/refs/tags/0.0.s.tar.gz"
   version "0.0.1"
   sha256 "dcb4a43e9b0f7de329ab25c2a781dc76f71c893e2a98a637ed59edb63d9fd195"
   license "MIT"
