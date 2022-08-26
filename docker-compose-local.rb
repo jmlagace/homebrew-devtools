@@ -4,9 +4,9 @@
 class DockerComposeLocal < Formula
   desc ""
   homepage ""
-  url "https://github.com/jmlagace/docker-compose-local/archive/refs/tags/0.0.2.tar.gz"
+  url "https://github.com/jmlagace/docker-compose-local/archive/refs/tags/0.0.3.tar.gz"
   version "0.0.2"
-  sha256 "88dd0e807f18f18a784c58137a32c3115e5884c8c96b52e4513439af9d5fee79"
+  sha256 "e28ed589feb0687f3f6b381d7d3de2e157cbd4741e1ab6f546328dfc062e9c67"
   license "MIT"
 
   # depends_on "cmake" => :build
